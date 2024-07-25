@@ -1,0 +1,62 @@
+#swap2numbers(using temp)   ctrl +d = replace the value or number
+a = int(input("give a:"))
+b = int(input("give b:"))
+temp = b
+b = a
+a = temp
+print(f"value of a is:{a}")
+print(f"value of b is:{b}")
+
+
+#swap of 2 numbers (without using temp)
+a = int(input("give a:"))
+b = int(input("give b:"))
+
+b = a+b
+a = b-a
+b = b-a
+
+print(f"value of a is:{a}")
+print(f"value of b is:{b}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
